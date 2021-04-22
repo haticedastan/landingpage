@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatice DAŞTAN</title>
+    <meta name="keywords" content="javascript">
+    <meta name="description"
+    content="Hatice DAŞTAN">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+
+    <!-- mobile -->
+    <link rel="stylesheet" media="(max-width:500px)"  href="css/mobile.css">
+</head>
+<body>
+
+    <header class="bg-light-color">
+        <navbar id="navbar">
+            <h1 class="heading-small">Hatice Dastan</h1>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#training">Egitimler</a></li>
+                <li><a href="#courses">Kurslar</a></li>
+                <li><a href="#coctact">Iletisim</a></li>
+                    
+            </ul>
+        </navbar>
+    </header>
+   <section id="home">
+       <img src="images/cat.jfif"  alt="hatice dastan">
+       <div class="name text-center">
+           <h2>Hatice Dastan</h2>
+           <p>Software Engineer </p>
+       </div>
+        <a href="#courses" class="btn btn-primary">Kurslara git</a>
+   </section>
+   <section id="training" class="bg-dark-color">
+       <h3 class="text-center heading-medium">Yazılar</h3>
+       <div class="items">
+           <article class="item">
+               <i class="fa fa-pencil-alt"></i>
+               <h3>HTML</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, modi!</p>
+           </article>
+           <article class="item">
+            <i class="fa fa-pencil-alt"></i>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, modi!</p>
+        </article>
+        <article class="item">
+            <i class="fa fa-pencil-alt"></i>
+            <h3>javascript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, modi!</p>
+        </article>     
+       </div>
+   </section>
+   <section id="courses">
+       <h3 class="text-center heading-medium">Kurslar</h3>
+       <div class="container">
+           <div class="courses">
+               <div class="course">
+                   <div class="course-image">
+                       <img src="images/html.jpg" class="img-wh" alt="html">
+                       <span>HTML kursu</span>
+                   </div>
+                   <div class="course info">
+                       <div class="title">
+
+                       </div>
+                       <div class="description">HTML gelistirici kursu | Sıfırdan Ögrenin</div>
+                       <div class="instructor">Hatice Dastan</div>
+                       <div class="rating">5.0 | (1000 oylama)</div>
+                   </div>
+               </div>
+
+               <div class="course">
+                <div class="course-image">
+                    <img src="images/css.jpg" class="img-wh" alt="html">
+                    <span>CSS kursu</span>
+                </div>
+                <div class="course info">
+                    <div class="title">
+
+                    </div>
+                    <div class="description">CSS gelistirici kursu | Sıfırdan Ögrenin</div>
+                    <div class="instructor">Hatice Dastan</div>
+                    <div class="rating">5.0 | (1000 oylama)</div>
+                </div>
+            </div>
+
+            <div class="course">
+                <div class="course-image">
+                    <img src="images/js.jpg" class="img-wh" alt="js">
+                    <span>JS kursu</span>
+                </div>
+                <div class="course info">
+                    <div class="title">
+
+                    </div>
+                    <div class="description">JAVASCRIPT gelistirici kursu | Sıfırdan Ögrenin</div>
+                    <div class="instructor">Hatice Dastan</div>
+                    <div class="rating">5.0 | (1000 oylama)</div>
+                </div>
+            </div>
+           </div>
+       </div>
+   </section>
+
+   <footer id="contact" class="bg-dark-color">
+       <div class="contact-form">
+           <form>
+               <h4 class="text center heading-medium">Bana ulasın</h4>
+               <div class="form-group">
+                   <label for="name">Isim</label>
+                   <input type="text"
+                   class="form-control"
+                   name="name"
+                   id="name"
+                   placeholder="İsim"/>
+               </div>
+
+               <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Email"/>
+            </div>
+            <div class="form-group">
+                   <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız"></textarea>
+               </div>
+               <button type="button" class="btn btn-block">Gönder</button>
+           </form>
+           <ul>
+               <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+           </ul>
+       </div>
+   </footer>
+</body>
+</html>

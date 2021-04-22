@@ -1,0 +1,88 @@
+/* class */
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75;
+}
+
+/* colors */
+
+.bg-light-color{
+    background-color: chocolate;
+}
+
+.bg-dark-color{
+    background-color: rgb(151, 86, 64);
+}
+
+/* container */
+
+.container{
+    max-width: 1100px;
+    /* ortalama */
+    margin:0 auto;
+
+}
+
+.btn  {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    border: 1px solid wheat;
+}
+
+.btn-primary{
+    background-color: lightsalmon;
+}
+
+.btn-primary:hover{
+    color:black;
+    background-color: coral
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+.btn-dark{
+    color: black;
+    background-color: sienna;
+    border: 0.5px solid black;
+}
+
+.img-wh{
+    width: 50px;
+    height: auto;
+}
+
+.course .course .course-image span{
+    background: red;
+}
+
+/* FORMS */
+
+.form-group{
+    padding: 0.25rem 0;
+
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding:  0.25rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+    
+}
