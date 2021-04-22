@@ -7,4 +7,4 @@
 - cat.jpg
 add 
 
-![İmages](https://ibb.co/d7Fpyb1)
+! [images](https://ibb.co/d7Fpyb1)
